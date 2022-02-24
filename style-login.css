@@ -54,3 +54,16 @@ a{
   color: #212121;
   text-decoration: none;
 }
+@media screen and (max-width:768px) {
+  #showcase{
+    display: block;
+    margin: 5rem auto;
+
+  }
+  .login-side{
+    display: none;
+  }
+  .login{
+    display: block;
+  }
+}
