@@ -1,5 +1,5 @@
 # GDSC Open source Frontend bootcamp - Vanila Js
-
+!['Preview'](preview.jpg)
 We'd be building a Job listing web app with the integration of an api to fetch the listings and to authenticate the users.
 
 We'd be using the following tools:
