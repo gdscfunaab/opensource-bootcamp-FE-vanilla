@@ -35,8 +35,22 @@ body{
     font-size: 1.17rem;
   }
   .form{
-    margin: 1rem;
+    margin: 1rem 8rem;
     display: grid;
     grid-template-rows: repeat(3 1fr);
-
   }
+.input{
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: #fff;
+  background: #f8f8f8;
+}
+.input-dark{
+  background-color: #212121;
+  color: #fff;
+}
+a{
+  color: #212121;
+  text-decoration: none;
+}
