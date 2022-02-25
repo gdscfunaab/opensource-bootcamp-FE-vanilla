@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+#showcase{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+}
+.login-side{
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(./assets/images/background.guys.jpg)no-repeat
+  center center/cover;
+  height: 100vh;
+  width: 50vw;
+  }
+  .login{
+    background: #fff;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+  }
+  h1{
+    color: #f261b4;
+    padding-bottom: 1rem;
+  }
+  .head{
+    font-weight:bold;
+    font-size: 1.17rem;
+  }
+  .form{
+    margin: 1rem 8rem;
+    display: grid;
+    grid-template-rows: repeat(3 1fr);
+  }
+.input{
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: #fff;
+  background: #f8f8f8;
+}
+.input-dark{
+  background-color: #212121;
+  color: #fff;
+}
+a{
+  color: #212121;
+  text-decoration: none;
+}
+@media screen and (max-width:768px) {
+  #showcase{
+    display: block;
+    margin: 5rem auto;
+
+  }
+  .login-side{
+    display: none;
+  }
+  .login{
+    display: block;
+  }
+}

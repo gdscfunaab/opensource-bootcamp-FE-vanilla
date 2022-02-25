@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent{
+    display: flex;
+    height: 100vh;
+    width: 100vw;}
+
+img{
+    height: 100vh;
+    width: 50vw;
+    object-fit: cover;
+}
+
+
+
+
+.image{
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0.0,0,0.5)), url(./bg.jpg);
+    object-fit: contain;
+    height: 100vh;
+    width: 50vw;
+}
+
+
+
+.login{
+height: 100vh;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+background-color: rgb(226, 213, 213);
+}
+.huntr{
+display: flex;
+align-content: center;
+justify-content: center;
+color: palevioletred;
+padding-bottom: 23px;
+font-size: 2em;
+font-weight: bold;}
+
+.job{
+    display: flex;
+align-content: center;
+justify-content: center;
+padding-bottom: 23px;
+font-size: 1.5em;
+}
+.form{
+     display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.reg{
+ display: flex;
+flex-direction: column;
+align-items: center;
+background-color: black;
+color: white;
+margin-top: 20px;
+line-height: 40px;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    padding-top: 23px;
+    align-content: center;
+    justify-content: center;
+    }
+
+    .red{
+        padding:10px 5px;
+        line-height:150%;
+        margin-bottom: 10px;
+        opacity: 0.7;
+    }
+    .s
