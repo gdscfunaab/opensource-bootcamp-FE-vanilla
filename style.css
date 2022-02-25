@@ -6,6 +6,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   background-color: #ffff;
+  max-width: 100%;
 }
 /*footer*/
 li{
@@ -23,6 +24,11 @@ a{
   margin: auto 4rem;
   flex-direction: rows;
   margin-bottom: 5rem;
+  background: #ffff;
+}
+.social{
+  display: flex;
+  align-content: center;
 }
 .list{
   padding:0.5rem;
@@ -70,4 +76,25 @@ a{
 .paragraph p{
   line-height: 1.5rem;
   padding:auto 5rem;
+}
+@media only screen and (max-width:768px ) and(min-width:400px) {
+  .what-we-do{
+    display:grid;
+    grid-template-rows:50% 50%;
+  }
+  .img{
+    width: 380px;
+    height:270px ;
+    margin:1rem 1rem;
+  }
+  what-we-do p{
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: medium;
+  }
+
+  .footer{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
 }
