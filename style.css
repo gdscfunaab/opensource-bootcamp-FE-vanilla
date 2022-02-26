@@ -288,3 +288,68 @@ a{
     font-size: 17px;
     line-height: 1.8;
 }
+
+/* Styling for the job listing cards */
+.job_con{
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    column-gap: 50px;
+    grid-row-gap: 40px;
+    max-width: 900px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-auto-rows: 60px;
+}
+.job_child{
+    position: relative;
+    padding: 1em;
+    width: 100%;
+    height: 20em;
+    grid-row-end: span 4;
+    background-color: #fff;
+    box-shadow: 0 0 106px -59px #adabad;
+}
+.job_title {
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 1em 0;
+    background-color: transparent;
+}
+.job_details {
+    position: absolute;
+    top: 40%;
+    left: 1em;
+}
+.job_location {
+    color: #707070;
+}
+.job_time {
+    font-size: .8em;
+    color: #f261b4;
+    font-weight: 700;
+}
+.job_company {
+    position: absolute;
+    top: 60%;
+}
+.job_icon {
+    width: 2em;
+}
+a {
+    text-decoration: none;
+}
+a, button {
+    outline: none;
+}
+.job_apply {
+    position: absolute;
+    bottom: 2em;
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+    height: 3em;
+    border: none;
+    color: #fff;
+    background-color: #16c484;
+    cursor: pointer;
+}
