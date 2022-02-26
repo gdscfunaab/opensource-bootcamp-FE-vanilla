@@ -354,3 +354,92 @@ a, button {
     background-color: #16c484;
     cursor: pointer;
 }
+@media screen and (max-width:500px) {
+    .bg-image img{
+        position: absolute;
+        right: 0;
+        height: 120px;
+        margin-top: -5.5vh;
+        z-index: -1;
+        top: 0;
+    
+    }
+    
+    .side-image img{
+        padding-top: 75px;
+        height: 30vh;
+        position: absolute;
+        left: 0;
+    }
+    .body-text{
+        margin-top: 38vh;
+        padding-left: 7vw;
+    }
+    
+.body-text h3{
+    font-size: 20px;
+    color: #f261b4;
+    padding-bottom: 1rem;    
+}
+
+.body-text h1{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.body-text p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85;
+}
+.logo-container h1{
+    font-weight: 600;
+    color: #f261b4;
+    font-size: 1.5em;
+}
+}
+@media screen and (max-width:768px) {
+    
+    .bg-image img{
+        position: absolute;
+        right: 0;
+        height: 50vh;
+        margin-top: -0.5vh;
+        z-index: -1;
+        top: 0;
+    
+    }
+    
+    .side-image img{
+        padding-top: 60px;
+        height: 25vh;
+        position: absolute;
+        left: 0;
+    }
+    .body-text{
+        margin-top: 38vh;
+        padding-left: 7vw;
+    }
+    
+.body-text h3{
+    font-size: 20px;
+    color: #f261b4;
+    padding-bottom: 1rem;    
+}
+
+.body-text h1{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.body-text p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85;
+}
+.logo-container h1{
+    font-weight: 600;
+    color: #f261b4;
+    font-size: 1.5em;
+}
+}
