@@ -50,6 +50,9 @@ body{
   background-color: #212121;
   color: #fff;
 }
+.input-dark a{
+  color: #fff;
+}
 a{
   color: #212121;
   text-decoration: none;
