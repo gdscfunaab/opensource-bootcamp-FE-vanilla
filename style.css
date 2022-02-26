@@ -1,6 +1,15 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color: #212121;
+    text-decoration: none;
 }
 
 .header-container{
@@ -15,18 +24,22 @@
 .logo-container h1{
     font-weight: 600;
     color: #f261b4;
-    font-size: 2em;
+    font-size: 1.8em;
 }
-
+.login a{
+    color: #f261b4;
+}
+.Sign-Up a{
+    color: #ffff;
+}
 .nav-links{
     margin-left: 25vh;
 }
 
 .nav-links a{
     text-decoration: none;
-    font-size: 19px;
+    font-size: 17px;
     margin: 23px;
-    color: black;
     cursor: pointer;
 }
 
@@ -46,6 +59,7 @@
     background-color: white;
     border: none;
     cursor: pointer;
+    border-radius: 0.3rem;
 }
 
 .Sign-Up{
@@ -56,12 +70,13 @@
     border: none;
     cursor: pointer;
     z-index: 2;
+    border-radius: 0.3rem;
 }
 
 .bg-image img{
     position: absolute;
     right: 0;
-    height: 80vh;
+    height: 85vh;
     margin-top: -13.5vh;
     z-index: -1;
 
@@ -69,7 +84,7 @@
 
 .side-image img{
     padding-top: 38px;
-    height: 26vh;
+    height: 32vh;
     position: absolute;
     left: 0;
 }
@@ -80,12 +95,12 @@
 }
 
 .body-text h3{
-    font-size: 23px;
+    font-size: 20px;
     color: #f261b4;    
 }
 
 .body-text h1{
-    font-size: 47px;
+    font-size: 45px;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -112,15 +127,15 @@
 .search{
   background-color: #f261b4;  
   color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
   cursor: pointer;
 }
 
 .job-cate{
-    background-color: rgb(231, 230, 230);
+    background-color:#f4f4f4;
     height: 55vh;
 }
 
@@ -208,32 +223,33 @@
 }
 
 .body-image img{
-    height: 45vh;
-    width: 65vh;
-    padding-left: 24vh;
+    max-height: 46vh;
+    max-width: 67vw;
+    padding-left: 20vh;
 }
 
 .body-word{
-    padding-right: 15vh;
+    margin-top: 1rem;
+    margin-right: 4.5rem;
 }
 
 .body-word h1{
-    font-size: 35px;
-    padding-bottom: 5vh;
+    font-size: 40px;
+    padding-bottom: 4.5vh;
     font-family: 'Open Sans', sans-serif;
 }
 
 .body-word p{
     line-height: 2;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 10rem;
+    margin-bottom: 20px;
 }
 
 .footer-logo {
@@ -247,19 +263,19 @@
 .social-h a i{
     color: black;
     font-size: 25px;
-    margin: 2vh;
-    padding-top: 6vh;
+    margin: 1vh;
+    padding-top: 4vh;
 }
 
 .list-nav ul li {
     list-style: none;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.8;
 }
 
 .list-careers ul li {
     list-style: none;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.8;
 }
 
@@ -269,6 +285,6 @@
 
 .sign-in ul li {
     list-style: none;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.8;
 }
