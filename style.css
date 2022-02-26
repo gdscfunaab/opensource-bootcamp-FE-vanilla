@@ -249,7 +249,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .footer-logo {
